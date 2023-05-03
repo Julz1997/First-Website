@@ -1,0 +1,164 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-image: url("../images/accommodation/StockSnap_XTRAJDQIPV.jpg");
+  height: 100%;
+  background-color: #f3e9e9;
+  background-repeat: fill;
+  background-position: center;
+  background-size: cover;
+}
+
+img {
+  border-radius: 50%;
+}
+
+#footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 40px;
+  background: grey;
+}
+
+marquee {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  /* Height of the footer*/
+  height: 300px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Jura", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsla(0, 0%, 48%, 0.392);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  padding: 1rem;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  float: right;
+  text-align: end;
+  flex: auto;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.contact {
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: red;
+  padding: 0.5rem;
+  width: 1px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.container > div {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+  height: 50vw;
+}
+
+.container div p {
+  margin: 20px auto;
+  writing-mode: vertical-lr;
+  color: red;
+  font-size: 10rem;
+}
+
+.img {
+  background-image: url(./assets/main.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+li {
+  margin: 0 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 50;
+  width: 10;
+  margin: left;
+  text-align: center;
+  background-image: url(../images/added/Wood-Texture-Graphics-27181890-1-1-580x387.jpg);
+  border-radius: 50%;
+  size: 100px;
+  align-items: center;
+  background-size: auto;
+  margin: 30rem;
+  padding: 4rem;
+}
+
+.card img {
+  max-width: 500px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-image: url(../images/added/Wood-Texture-Graphics-27181890-1-1-580x387.jpg);
+  border-radius: 1rem;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.col {
+  background-image: url(../images/added/Wood-Texture-Graphics-27181890-1-1-580x387.jpg);
+  height: 300px;
+  width: 100px;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 2rem;
+  color: white;
+}/*# sourceMappingURL=one.css.map */
